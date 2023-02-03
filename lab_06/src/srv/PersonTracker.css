@@ -1,0 +1,18 @@
+/*
+* Class: SE2840 - Person Tracker
+* Name: Paige Rosynek
+* Class Section: 031
+*/
+
+#map {
+    height: 500px;
+    width: 1000px;
+}
+
+body {
+    width: 1000px;
+}
+
+thead {
+    visibility: hidden;
+}

@@ -1,0 +1,8 @@
+### Class: SE2840 - Person Tracker
+### Name: Paige Rosynek
+### Class Section: 031
+### Date: 01.31.2023
+
+#### **Reflection:**
+
+This lab was a fun exploration of programming an full-stack application. Throughout this lab, I gained a better understanding of how client-server interactions occur. While working on this lab, I often found myself scrolling up and down the lab document searching for certain requirements that I saw once, but I struggled to find again. One thing that might improve this lab is making the requirements more clear and located in a single spot on the document. The requirement for panning to a certain marker based on the selected table row was specifically hard to find. In addition, I added error responses for the string values (firstname, lastname, hometown) such that the input text was not a number (note, I didn't check if the string contained numbers, just if the input was a number), however I don't believe that this check was mentioned in the lab document. Also, I think it would have been helpful to mention in the document what the app should display if no results are found, becuase I wasn't sure how to handle this situation. Lastly, while working on this lab I often wanted a screenshot of the final application as a reference to compare my application to. Therefore, I think including a screenshot or two of the final app should be included in the repository as a guide.
