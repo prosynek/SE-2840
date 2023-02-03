@@ -1,0 +1,57 @@
+/*
+      Lab 01: Schedule Webpage
+      Paige Rosynek
+      Section: 031
+*/
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: "Microsoft Yi Baiti", serif;
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+a {
+    color: black;
+}
+
+table {
+    border-color: black;
+    background-color: white;
+    color : black;
+}
+
+td:empty {
+    border-color: darkgray;
+    border-width: 2px;
+}
+
+td {
+    border-color: black;
+}
+
+.timecol {
+    border-color: darkgray;
+}
+
+.cs3840 {
+    color: black;
+}
+.cs3300 {
+    color: black;
+}
+
+.ma330 {
+    color: black;
+}
+
+.se2840 {
+    color: black;
+}
+
+.freehour {
+    color: black;
+}

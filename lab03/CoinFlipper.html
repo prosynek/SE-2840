@@ -1,0 +1,91 @@
+<!--
+Class: SE2840 - JavaScript Coin Flipper DOM
+Name: Paige Rosynek
+Class Section: SE2840 031
+!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="CoinFlipper.css">
+	<script src="CoinFlipper.js"></script>
+	<title>Paige Rosynek's Coin Flipper</title>
+</head>
+<body>
+	<h1>PAIGE ROSYNEK'S COIN FLIPPER</h1>
+	<div class="input-form">
+		<form>
+			<label for="numCoins">Number of coins to flip : </label>
+			<input type="text" id="numCoins">
+			<br>
+			<label for="numFlips">Number of flips : </label>
+			<input type="text" id="numFlips">
+			<br><br>
+			<input type="button" id="submit" value="submit">
+		</form>
+	</div>
+	<div class="error-container">
+		<span id="coinsError"></span>
+		<br><br>
+		<span id="flipsError"></span>
+	</div>
+	<table id="histogram">
+		<tr>
+			<td id="bin0"></td>
+			<td id="freq0"></td>
+			<td><progress id="bar0"></progress></td>
+		</tr>
+		<tr>
+			<td id="bin1"></td>
+			<td id="freq1"></td>
+			<td><progress id="bar1"></progress></td>
+		</tr>
+		<tr>
+			<td id="bin2"></td>
+			<td id="freq2"></td>
+			<td><progress id="bar2"></progress></td>
+		</tr>
+		<tr>
+			<td id="bin3"></td>
+			<td id="freq3"></td>
+			<td><progress id="bar3"></progress></td>
+		</tr>
+		<tr>
+			<td id="bin4"></td>
+			<td id="freq4"></td>
+			<td><progress id="bar4"></progress></td>
+		</tr>
+		<tr>
+			<td id="bin5"></td>
+			<td id="freq5"></td>
+			<td><progress id="bar5"></progress></td>
+		</tr>
+		<tr>
+			<td id="bin6"></td>
+			<td id="freq6"></td>
+			<td><progress id="bar6"></progress></td>
+		</tr>
+		<tr>
+			<td id="bin7"></td>
+			<td id="freq7"></td>
+			<td><progress id="bar7"></progress></td>
+		</tr>
+		<tr>
+			<td id="bin8"></td>
+			<td id="freq8"></td>
+			<td><progress id="bar8"></progress></td>
+		</tr>
+		<tr>
+			<td id="bin9"></td>
+			<td id="freq9"></td>
+			<td><progress id="bar9"></progress></td>
+		</tr>
+		<tr>
+			<td id="bin10"></td>
+			<td id="freq10"></td>
+			<td><progress id="bar10"></progress></td>
+		</tr>
+	</table>
+	<span id="timeElapsed"></span>
+</body>
+</html>

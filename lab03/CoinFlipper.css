@@ -1,0 +1,95 @@
+/*
+Class: SE2840 - JavaScript Coin Flipper DOM
+Name: Paige Rosynek
+Class Section: SE2840 031
+*/
+
+/* TODO: Document styling goes here */
+body {
+    background-color: whitesmoke;
+    font-family: "Arial Black", sans-serif;
+    font-size: 20px;
+    color: #f6ae2d;
+}
+
+h1 {
+    text-align: center;
+    background-color: #2a9d8f;
+    font-size: 40px;
+    border: 10px double #f4a261;
+    padding: 5px;
+    margin: 20px;
+}
+
+.error-container {
+    float: right;
+    width: 55%;
+    padding: 15px;
+}
+
+.input-form {
+    float: left;
+    margin-left: 20px;
+}
+
+form {
+    position: absolute;
+    background-color: #0f4c5c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+label {
+    padding: 5px;
+    text-align: right;
+}
+
+input[type=text] {
+    width: 30%;
+    border: none;
+    border-bottom: 4px solid #f26419;
+    background-color: papayawhip;
+    font-size: 18px;
+    font-weight: bold;
+    color: #171719;
+    margin: 10px;
+
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+#submit {
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px;
+    background-color: #2a9d8f;
+    color: #f6ae2d;
+    width: 20%;
+    border-color: whitesmoke;
+}
+
+#submit:hover {
+    background-color: #f26419;
+    color: papayawhip;
+}
+
+table {
+    visibility: hidden;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 190px;
+    padding: 15px;
+    text-align: center;
+}
+
+progress {
+    visibility: hidden;
+    width: 95%;
+}
+
+#timeElapsed {
+    margin-left: 20px;
+}

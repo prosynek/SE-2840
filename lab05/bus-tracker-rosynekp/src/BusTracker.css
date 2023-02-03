@@ -1,0 +1,29 @@
+/*
+Class: SE2840 - Bus Tracker
+Name: Paige Rosynek
+Class Section: 031
+ */
+
+body {
+    width : 1000px;
+}
+
+#map {
+    height : 700px;
+    width : 1000px;
+    margin : 10px;
+}
+
+table {
+    margin : 10px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+a {
+    float : right;
+    font-family : 'Ebrima', sans-serif;
+    font-size: 10px;
+}

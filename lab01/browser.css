@@ -1,0 +1,105 @@
+/*
+      Lab 01: Schedule Webpage
+      Paige Rosynek
+      Section: 031
+*/
+body {
+    background-color: #252626;
+    color: floralwhite;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+}
+
+a {
+    color: darkorange;
+    font-weight: bold;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+table {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border: 10px double lightseagreen;
+    font-weight: bold;
+    font-style: italic;
+    border-spacing: 5px;
+}
+
+
+th{
+    background-color: black;
+    text-align: center;
+}
+
+td:empty {
+    border-radius: 0;
+    border-color: darkgray;
+    border-width: 1px;
+    background-color: lightgray;
+    opacity: 30%;
+}
+
+td {
+    border: 2px solid springgreen;
+    border-radius: 10px;
+}
+
+.timecol {
+    width: 10%;
+    color: ghostwhite;
+    border-color:#e6103b;
+    background-color: #e6103b;
+}
+
+.monday {
+    width: 18%;
+}
+
+.tuesday {
+    width: 18%;
+}
+
+.wednesday {
+    width: 18%;
+}
+
+.thursday {
+    width: 18%;
+}
+
+.friday {
+    width: 18%;
+}
+
+.cs3840 {
+    background-color:mediumvioletred;
+    color:gold;
+}
+.cs3300 {
+    background-color: lawngreen;
+    color: darkgreen;
+}
+
+.ma330 {
+    background-color: teal;
+    color: darkorange;
+}
+
+.se2840 {
+    background-color: orangered;
+    color: aqua;
+}
+
+.freehour {
+    background-color: ghostwhite;
+    color: mediumslateblue;
+}
+
+
+
